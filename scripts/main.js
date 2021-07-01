@@ -15,10 +15,10 @@ let myHeading = document.querySelector('h1');
 
 myImage.onclick = function () {
     let mySrc = myImage.getAttribute('src');
-    if (mySrc === 'images/my-image1.jpg') {
-        myImage.setAttribute('src', 'images/my-image2.jpg');
+    if (mySrc === 'siddu.github.io/images/my-image1.jpg') {
+        myImage.setAttribute('src', 'siddu.github.io/images/my-image2.jpg');
     } else {
-        myImage.setAttribute('src', 'images/my-image1.jpg');
+        myImage.setAttribute('src', 'siddu.github.io/images/my-image1.jpg');
     }
 }
 
